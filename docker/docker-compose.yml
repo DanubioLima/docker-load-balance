@@ -1,0 +1,23 @@
+version: '3'
+services:
+  backend:
+    build: ../backend
+    environment:
+      - PORT=5050
+    deploy:
+      replicas: 4
+    networks:
+      - example-network
+
+  nginx:
+    build: ../nginx
+    container_name: nginx
+    ports:
+      - "3000:80"
+    networks:
+      - example-network
+    depends_on:
+      - backend
+
+networks:
+  example-network:
