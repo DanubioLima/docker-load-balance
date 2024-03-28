@@ -26,6 +26,7 @@ Agora acesse `http://localhost:3000` e você deve ver essa tela:
 
 ## Links para estudo
 
-https://www.hostgator.com.br/blog/load-balance-o-que-e-e-como-implementar/
-https://www.nginx.com/
+- https://www.hostgator.com.br/blog/load-balance-o-que-e-e-como-implementar/
+- https://www.nginx.com/
+
 
